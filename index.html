@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto x-devs - Semana do Zero ao Programador Contratado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Avengers</h1>
+    </header>
+    <main class="personagens-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/imagens/seta.png" alt="seta para voltar a imagem">
+        </button>
+
+        <ul class="lista-personagens">
+            <li class="cartao selecionado fundo-1">
+                <h2 class="nome">Homem de Lata</h2>
+
+                <img class="imagem-personagem" src="./src/imagens/Homemde Lata.png" alt="Homem de Lata" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+
+                    <p class="texto">Homem de Lata, o guardião metálico da cidade, possui a habilidade de controlar o aço com sua mente, moldando-o em formas impenetráveis. Com sua armadura reluzente e resistência inquebrável, ele enfrenta qualquer ameaça com coragem e determinação. Seu coração de ferro pulsa com a missão de proteger os inocentes, tornando-o um símbolo de esperança em tempos sombrios. O herói de aço, cuja força reside não só na sua armadura, mas na sua determinação incansável pela justiça.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Mulher Chicote</h2>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="./src/imagens/Mulher Chicote.png" alt="Mulher Chicote" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Mulher Chicote, a mestra das cordas imbuídas de eletricidade, é ágil e letal como um relâmpago. Com suas habilidades acrobáticas e destreza incomparável, ela domina seus oponentes, envolvendo-os em um emaranhado eletrizante. Sua justiça é rápida e implacável, enquanto ela protege os inocentes com sua ferocidade e graça. Uma heroína que desafia as sombras com sua luz elétrica.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Super Cueca</h2>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="./src/imagens/Super Cueca.png" alt="Super Cueca" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Super Cueca é um herói inusitado, dotado de superforça e resistência inigualáveis, sempre pronto para salvar o dia com seu traje icônico. Seu cinto especial transforma energia solar em poder bruto, permitindo voar e criar escudos de energia. Com um senso de humor único e coragem inabalável, ele enfrenta vilões e protege a cidade, provando que heróis podem surgir das maneiras mais inesperadas.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Thoro</h2>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="./src/imagens/Thoro.png" alt="Thoro" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Thoro é um herói imponente, mestre do trovão e das tempestades, capaz de invocar relâmpagos com um gesto de suas mãos. Seu martelo místico, forjado pelos deuses, concede-lhe força sobre-humana e a habilidade de voar. Guardião dos céus e da terra, Thoro combate as forças do mal com coragem divina e poder elemental. Sua presença é um farol de esperança em tempos de escuridão.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Homem Lunar</h2>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="./src/imagens/Homem Lunar.png" alt="Homem Lunar" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Homem Lunar é um herói enigmático que canaliza o poder da lua para obter força, agilidade e habilidades regenerativas excepcionais. À noite, ele pode manipular a luz lunar para criar ilusões e se tornar quase invisível. Com uma conexão profunda com os ciclos lunares, ele antecipa movimentos inimigos e revela segredos ocultos. Protetor das sombras, Homem Lunar luta incansavelmente para trazer justiça sob o manto da noite.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-6">
+                <div class="informacoes">
+                    <h2 class="nome">Super Proessora</h2>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="./src/imagens/Super Professora.png" alt="Super Professora" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Super Professora é uma heroína sábia e valente, com o poder de absorver e compartilhar conhecimento instantaneamente. Seu intelecto prodigioso permite resolver enigmas complexos e prever estratégias inimigas. Utilizando ferramentas tecnológicas avançadas e uma mente brilhante, ela inspira e guia outros heróis. Na batalha contra a ignorância e a injustiça, Super Professora é uma força imbatível e uma fonte de inspiração.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
+        </button>
+    </main>
+    <script src="./src/js/index.js"></script>
+
+   
+</body>
+
+</html>
